@@ -13,7 +13,7 @@ API Rest para RH!
 - **Arquitetura em camadas**
 - **Documentação da API** 
 
-## Stack Tecnológica
+## Stack
 
 - **Backend**: Node.js + Express v4 + TypeScript
 - **Autenticação**: JWT + bcrypt
@@ -31,8 +31,8 @@ API Rest para RH!
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/hiago-miguel/mit-backend-25E3_3.git
-cd mit-backend-25E3_3
+git clone https://github.com/hiago-miguel/mit-backend-25E3_2.git
+cd mit-backend-25E3_2
 ```
 
 2. Instale as dependências:
@@ -166,7 +166,7 @@ Remove empregado.
 
 ## Autenticação
 
-Todas as rotas de negócio (exceto auth) requerem autenticação via header:
+Todas as rotas (exceto auth) requerem autenticação via header:
 
 ```
 Authorization: Bearer <jwt-token>
